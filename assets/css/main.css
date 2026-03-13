@@ -36,8 +36,8 @@ body {
 
 main {
   margin: 0 auto;
-  max-width: 650px;
-  padding: 3rem 0;
+  max-width: 1000px;
+  padding: 3rem 2rem;
 }
 
 main.blogfeed * {
@@ -49,7 +49,7 @@ header {
 }
 
 header .site-title {
-  font-size: 5rem;
+  font-size: 3.5rem;
   font-weight: bolder;
   line-height: 110%;
   color: var(--text-dm-site-title);

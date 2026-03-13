@@ -1,23 +1,48 @@
-name: Sharad Raj
-dp: https://avatars2.githubusercontent.com/u/36638057?s=460&u=0cbe4fd6b5a3655d91b3eb86db834d0829a0c086&v=4
+name: Dorian PESCE
+dp: /assets/images/avatar.png
 description: "
   <p>
-    Developed by Sharad Raj who lives in India building useful things for the world.
+    At 21 years old, I am a passionate developer and I am proficient in various programming languages and technologies. 
+    I also have some experience in mobile development using Flutter.
   </p>
-  <br/>
-  <p>
-    You should follow him on <a href='https://github.com/sharadcodes' target='_blank'>Github</a>
-  </P>
 "
-email: dev_sharad@outlook.com
+email: dev@phyrios.fr
+skills:
+  langages:
+    - C#
+    - Ruby
+    - Python
+    - PHP
+    - JavaScript/TypeScript
+    - Dart
+    - SQL
+    - HTML/CSS
+  frameworks:
+    Frontend:
+      - Angular
+      - AstroJS
+    Backend:
+      - Symfony
+      - Node.js
+    Desktop:
+      - WinUI 3
+      - Electron
+    Mobile:
+      - Flutter
+  tools:
+    - Git
+    - Docker/Podman
+    - Jekyll
+    - Snyk
+    - Prometheus/Grafana
 contact:
   - title: linkedin
-    url: https://www.linkedin.com/in/srsmaurya
+    url: https://www.linkedin.com/in/dorian
   - title: github
-    url: https://github.com/sharadcodes
+    url: https://github.com/phyri0s
   - title: twitter
-    url: https://twitter.com/iamsharadraj
-  - title: dev
-    url: https://dev.to/sharadcodes
+    url: https://twitter.com/Phyrios
+  - title: discord
+    url: https://discord.com/users/phyrios_
   - title: email
-    url: mailto:dev_sharad@outlook.com
+    url: mailto:dev@phyrios.fr

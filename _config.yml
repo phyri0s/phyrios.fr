@@ -1,12 +1,12 @@
-title: Jekyll Material You
+title: Dorian PESCE - Développeur Full Stack
 markdown: kramdown
 # url: ""
 # baseurl: "/jekyll-theme-material-you"
 
 # for atom feed
 author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  name: Dorian PESCE
+  email: dev@phyrios.fr
 
 plugins:
   - jemoji
@@ -16,6 +16,8 @@ plugins:
 
 collections_dir: all_collections
 collections:
+  projects:
+    output: true
   posts:
     output: true
 
@@ -25,4 +27,9 @@ defaults:
     values:
       layout: "post"
       permalink: /posts/:title/
+  - scope:
+      path: "_projects"
+    values:
+      layout: "project"
+      permalink: /projects/:title/
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]

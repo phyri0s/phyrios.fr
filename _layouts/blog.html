@@ -4,8 +4,12 @@
   <body>
     <main class="blogfeed">
       {% include header.html %} {% include bio.html %}
+      <div class="recent-activity-header">
+        <h2>Recent Activity</h2>
+      </div>
       <section id="articles">
-        {% for post in site.posts %}
+        {% assign all_items = site.posts | concat: site.projects | sort: 'date' | reverse %}
+        {% for post in all_items %}
         <!--  -->
         {% if post.thumbnail %}
         <article class="article">
