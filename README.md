@@ -27,22 +27,3 @@ You can use the sponsor button at the top or on the right.
 6. Change the `_config.yml` & `_data/author.yml` files as you like.
 7. Upload the files on your repository and :sunglasses: enjoy.
 > NOTE: You have to remove `url` and `baseurl` from `_config.yml` to use this theme for `<your-username>.github.io`
-
-## Alert!
-
-* Don't touch `categories.js` inside `assets/js` folder unless you know what you're doing, it is used for generating links for the particular category pill you click on.
-* **Avoid having spaces in category name** because they break the category posts modal's code. You can use underscore instead of them.
-
-# Screenshots
-
-## PC BLOG PAGE
-
-![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-material-you/main/screenshots/pc_blog.png)
-
-## CATEGORIES MODAL
-
-![Categories modal](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-material-you/main/screenshots/cat_modal.png)
-
-## PC POST EXAMPLE
-
-![Post page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-material-you/main/screenshots/pc_post.png)
