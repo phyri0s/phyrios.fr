@@ -18,17 +18,13 @@ skills:
     - SQL
     - HTML/CSS
   frameworks:
-    Frontend:
-      - Angular
-      - AstroJS
-    Backend:
-      - Symfony
-      - Node.js
-    Desktop:
-      - WinUI 3
-      - Electron
-    Mobile:
-      - Flutter
+    - Angular
+    - AstroJS
+    - Symfony
+    - Node.js
+    - WinUI 3
+    - Electron
+    - Flutter
   tools:
     - Git
     - Docker/Podman

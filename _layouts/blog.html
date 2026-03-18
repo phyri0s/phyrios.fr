@@ -6,6 +6,7 @@
       {% include header.html %} {% include bio.html %}
       <div class="recent-activity-header">
         <h2>Recent Activity</h2>
+        <a href="{{site.baseurl}}/projects/">View all projects</a>
       </div>
       <section id="articles">
         {% assign all_items = site.posts | concat: site.projects | sort: 'date' | reverse %}

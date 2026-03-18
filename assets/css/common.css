@@ -135,13 +135,27 @@ hr {
 
 .recent-activity-header {
   margin: 2rem 0 1.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--dm-contrast);
+}
+
+.recent-activity-header a {
+  color: var(--dm-contrast);
+  transition: all 0.3s ease-in-out;
+}
+
+.recent-activity-header a:hover {
+  transform: translateX(2px);
 }
 
 .recent-activity-header h2 {
   font-size: 1.5rem;
   margin: 0;
-  padding-bottom: 1rem;
-  border-bottom: 2px solid var(--dm-contrast);
+  padding: 0;
+}
 }
 
 @media screen and (max-width: 1024px) {

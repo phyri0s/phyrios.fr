@@ -2,6 +2,10 @@
 <header>
   <a class="site-title article-page" href="{{site.baseurl}}/">{{site.title}}</a>
 </header>
+{% elsif page.layout == "projects" %}
+<header>
+  <a class="site-title" href="{{site.baseurl}}/">{{page.title}}</a>
+</header>
 {% else %}
 <header>
   <a class="site-title" href="{{site.baseurl}}/">{{site.title}}</a>

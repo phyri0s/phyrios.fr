@@ -1,37 +1,14 @@
 <section id="skills">
   <h3>Skills</h3>
   
-  <!-- Languages Card -->
   <div class="skill-card skill-card-full">
-    <h4>Languages</h4>
     <div class="skill-tags">
       {% for skill in site.data.author.skills.langages %}
       <span class="skill-tag">{{ skill }}</span>
       {% endfor %}
-    </div>
-  </div>
-
-  <!-- Frameworks Card -->
-  <div class="skill-card skill-card-full">
-    <h4>Frameworks</h4>
-    <div class="frameworks-grid">
-      {% for framework_type in site.data.author.skills.frameworks %}
-        <div class="framework-category">
-          <h5>{{ framework_type[0] }}</h5>
-          <div class="skill-tags">
-            {% for skill in framework_type[1] %}
-            <span class="skill-tag">{{ skill }}</span>
-            {% endfor %}
-          </div>
-        </div>
+      {% for framework in site.data.author.skills.frameworks %}
+      <span class="skill-tag">{{ framework }}</span>
       {% endfor %}
-    </div>
-  </div>
-
-  <!-- Tools Card -->
-  <div class="skill-card skill-card-full">
-    <h4>Tools</h4>
-    <div class="skill-tags">
       {% for tool in site.data.author.skills.tools %}
       <span class="skill-tag">{{ tool }}</span>
       {% endfor %}
